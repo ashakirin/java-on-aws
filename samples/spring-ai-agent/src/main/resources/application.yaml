@@ -48,6 +48,8 @@ management:
 #      endpoint: http://tempo:9411/api/v2/spans
 
   metrics:
+    tags:
+      application: spring-ai-agent
     distribution:
       percentiles-histogram:
         spring:
